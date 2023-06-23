@@ -1,0 +1,55 @@
+
+  
+  #compress-btn {
+    background-color: #b12d90;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #quiz-container {
+    margin: 20px;
+    text-align: center; 
+  }
+  
+  #question {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  #options {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+ 
+  .option {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-result {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #quiz-result1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(108, 75, 125);
+  }

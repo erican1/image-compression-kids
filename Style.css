@@ -1,0 +1,171 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #111315;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Main Section */
+.main {
+  
+  background-image: url("bck-img1.jpeg");
+}
+
+.section-title {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  margin-bottom: 40px;
+}
+
+.upload-container {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: inline-block;
+  background-color: #1b1d1f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+  background-color: #0069d9;
+}
+
+#image-input {
+  display: none;
+}
+
+#compress-button {
+  background-color: #b12d90;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#compress-button:hover {
+  background-color: #218838;
+}
+
+.image-section {
+  margin-bottom: 40px;
+}
+
+/* Rest of the CSS code remains the same */
+
+.selected-image-preview {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+
+.download-button {
+  display: inline-block;
+  background-color: rgb(104, 216, 238);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #c82333;
+}
+
+.description-section {
+  margin-bottom: 40px;
+}
+
+.description-section p {
+  margin-bottom: 10px;
+}
+
+.try-it-yourself {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .upload-label,
+  #compress-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}

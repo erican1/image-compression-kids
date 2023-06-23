@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Compression for Kids</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="quiz.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero-title">Image Compression App for Kids</h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="bck-img"></div>
+    <div class="container">
+      <section class="description-section">
+        <h2 class="section-title">What is Image Compression?</h2>
+        <p>
+          Image compression is the process of reducing the file size of an image without significantly reducing its quality.
+          It's like shrinking the image so that it takes up less space on a computer or when sending it over the internet.
+        </p>
+        <h2 class="section-title">Why is Image Compression Important?</h2>
+        <p>
+          Image compression is important because it allows us to save storage space on our devices, send images faster over the internet,
+          and load web pages more quickly.
+        </p>
+        <p class="try-it-yourself">
+          Try it Yourself!
+        </p>
+      </section>
+      <section class="upload-section">
+        <h2 class="section-title">Select Image to Compress</h2>
+        <div class="upload-container">
+          <input type="file" id="image-input">
+          <label for="image-input" class="upload-label">Choose File</label>
+        </div>
+        <button id="compress-button">Compress Image</button>
+      </section>
+
+      <section class="image-section">
+        <h2 class="section-title">Selected Image</h2>
+        <div id="selected-image-container"></div>
+      </section>
+
+      <section class="image-section">
+        <h2 class="section-title">Compressed Image</h2>
+        <div id="compressed-image-container"></div>
+        <a href="#" download id="download-button" class="download-button">Download</a>
+      </section>
+
+    
+      <section class="quiz-section"></section>
+      <h3>
+        Let's take a quiz to test your knowledge on Image Compression...
+      </h3>
+      <button id="compress-btn">Start Quiz</button>
+      <div id="quiz-container" style="display: none;">
+        <h2>Quiz</h2>
+        
+        <p id="question"></p>
+        <ol id="options" type="A">
+      <ol type="A">
+          <li><button class="option"></button></li>
+          <li><button class="option"></button></li>
+          <li><button class="option"></button></li>
+        </ul>
+        <p id="quiz-result"></p>
+        <p id="quiz-result1"></p>
+      </div>
+      
+      
+    </div>
+
+
+  </main>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.0.6/compressor.min.js"></script>
+  <script src="script.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
+
